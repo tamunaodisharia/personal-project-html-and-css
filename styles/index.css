@@ -3,7 +3,11 @@
     padding:0;
     font-family: 'Lato', sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 nav{
+
     width:100vw;
     height:122px;
     background-color:#3E4D60;
@@ -11,8 +15,9 @@ nav{
     
 }
 ul{
-    margin:0 19.5312%;
-    
+    width:60.9376%;
+    margin:auto;
+    min-width:1165px;
     
 }
 nav ul li a{
@@ -106,6 +111,8 @@ nav ul li{
     position: absolute;
     top:0;
     left:-690px;
+    /* left:-550%; */
+    
     
 }
 /* ---------------------------- component-2 -------------------------------- */
@@ -145,16 +152,21 @@ nav ul li{
     background-color: #FFFFFF;
     color:black;
 }
+.content{
+    width:64.4270%;
+    min-width:1133px;
+    margin:auto;
+   
+}
 .iphone{
-    margin-left:340px;
     margin-top:10px;
-    
     float:left;
 }
 .text{
     display:inline-block;
     margin-top:110px;
-    margin-left:104px;
+    
+   float:right;
     width:602px;
 }
 .text-1{
@@ -251,10 +263,15 @@ nav ul li{
     /* width:1920px;
     height:838px; */
     margin:0;
-    padding:0 375px 0 375px;
+    /* padding:0 375px 0 375px; */
     background-color:#ECF0F1;
     margin-top:-2px;
     height:838px;
+}
+.container-3{
+    width:39.0625%;
+    min-width:1120px;
+    margin:auto;
 }
 .featuredProducts{
     display:inline-flex;
